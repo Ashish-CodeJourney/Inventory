@@ -3,8 +3,6 @@ import Clock from './Clock';
 import Form from './Form';
 import DataTable from './DataTable';
 import Header from './Header';
-import { Analytics } from '@vercel/analytics/react';
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const App = () => {
   const [data, setData] = useState(() => JSON.parse(localStorage.getItem('data')) || []);
@@ -41,7 +39,6 @@ const App = () => {
 
   return (
     <div className="inline">
-      <Analytics />
       <Header />
       <Clock />
       <Form 
