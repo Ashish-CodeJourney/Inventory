@@ -8,9 +8,16 @@ export default {
     extend: {},
   },
   daisyui: {
-    themes: ["light", "dark", "cupcake", "luxury", "nord"],
+    themes: [
+      "light",
+      "dark",
+      "cupcake",
+      "luxury",
+      "nord"
+    ],
+    darkTheme: "dark", // Set the default dark theme
   },
   plugins: [
     require('daisyui'),
   ],
-} 
+}
