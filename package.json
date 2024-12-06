@@ -1,5 +1,6 @@
 {
-  "name": "simpleapp",
+  "name": "Inventory",
+  "homepage": "http://ashish-code.github.io/inventory",
   "private": true,
   "version": "0.0.0",
   "type": "module",
