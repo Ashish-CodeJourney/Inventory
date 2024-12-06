@@ -1,3 +1,5 @@
+[![pages-build-deployment](https://github.com/Ashish-CodeJourney/Inventory/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Ashish-CodeJourney/Inventory/actions/workflows/pages/pages-build-deployment)
+
 # Inventory Management Application
 
 This application is built using **Vite** and is fully responsive. It includes several key features:
